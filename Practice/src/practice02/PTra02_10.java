@@ -1,4 +1,5 @@
 package practice02;
+
 /*
  * PTra02_10.java
  *   作成	LIKEIT	2017
@@ -21,6 +22,11 @@ public class PTra02_10 {
 		 * ※ 日本円には小数点がありませんので、整数の値で出力してください(少数部分は切り捨て)
 		 * ※ プログラムは何行書いても良いです
 		 */
+
+		double x;
+		x = moneyInHand - ((coffee * 2) + snack)*1.08 ;
+
+		System.out.println(Math.floor(x));
 
 	}
 }
